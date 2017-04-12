@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application>
+        // Move to app
+        <!--
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -14,6 +16,6 @@
             android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/__picker_provider_paths"/>
-        </provider>
+        </provider> -->
     </application>
 </manifest>
